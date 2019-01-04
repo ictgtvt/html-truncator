@@ -3,6 +3,6 @@
 
 ### How to use:
 ```php
-$truncator = new HtmlTruncator();
+$truncator = new HTMLTruncator();
 echo $truncator->truncate($html, 400);
 ```
