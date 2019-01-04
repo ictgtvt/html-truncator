@@ -1,0 +1,20 @@
+{
+    "name": "ictgtvt/html-truncator",
+    "description": "Truncate HTML without breaking HTML tags",
+    "type": "library",
+    "require": {
+      "ext-dom": "*",
+      "masterminds/html5": "^2.5"
+    },
+    "authors": [
+        {
+            "name": "Nguyen Trung Nguyen",
+            "email": "ictgtvt@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-0": {
+        "ictgtvt": "src/"
+      }
+    }
+}
