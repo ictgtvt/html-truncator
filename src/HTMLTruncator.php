@@ -10,7 +10,7 @@ use Masterminds\HTML5;
  *
  * Re-written of https://github.com/judev/php-htmltruncator
  */
-class HtmlTruncator {
+class HTMLTruncator {
     // These tags are allowed to have an ellipsis inside
     public static $ellipsable_tags = array(
         'p', 'ol', 'ul', 'li',
